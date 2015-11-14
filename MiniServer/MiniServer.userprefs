@@ -1,8 +1,10 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FSM/FSMController.cs">
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MiniServer/ServerMainState/ServerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/FSM/FSMController.cs" Line="11" Column="34" />
+      <File FileName="Assets/Scripts/MiniServer/ServerMainState/ServerController.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/FSM/FSMController.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/MiniServer/ServerMainState/Start.cs" Line="13" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

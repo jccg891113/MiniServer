@@ -1,39 +1,42 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Fsm;
 
-namespace Fsm.JFSM
+namespace Fsm
 {
-	public class FSMState<T> where T : struct {
+	public class FSMState<T> where T : struct
+	{
 		
 		protected readonly T stateType;
 		protected readonly IFSMController<T> controller;
 		
-		public FSMState(T stateType, IFSMController<T> controller) {
+		public FSMState (T stateType, IFSMController<T> controller)
+		{
 			this.stateType = stateType;
 			this.controller = controller;
 		}
 		
-		public virtual void Enter()
+		public virtual void Enter ()
 		{
 			
 		}
 		
-		public virtual void Leave()
+		public virtual void Leave ()
 		{
 			
 		}
 		
-        public virtual void Update (float deltaTime) {
+		public virtual void Update (float deltaTime)
+		{
         
-        }
+		}
 		
-		public T GetStateType()
+		public T GetStateType ()
 		{
 			return stateType;
 		}
 		
-		public virtual T GetNextState () {
+		public virtual T GetNextState ()
+		{
 			return stateType;
 		}
 		

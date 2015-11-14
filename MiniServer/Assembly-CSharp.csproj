@@ -48,6 +48,12 @@
      <Compile Include="Assets\Scripts\FSM\FSMController.cs" />
      <Compile Include="Assets\Scripts\FSM\FSMMachine.cs" />
      <Compile Include="Assets\Scripts\FSM\FSMState.cs" />
+     <Compile Include="Assets\Scripts\MiniServer\ServerMainState\Ending.cs" />
+     <Compile Include="Assets\Scripts\MiniServer\ServerMainState\Loading.cs" />
+     <Compile Include="Assets\Scripts\MiniServer\ServerMainState\Pause.cs" />
+     <Compile Include="Assets\Scripts\MiniServer\ServerMainState\Running.cs" />
+     <Compile Include="Assets\Scripts\MiniServer\ServerMainState\ServerController.cs" />
+     <Compile Include="Assets\Scripts\MiniServer\ServerMainState\Start.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
