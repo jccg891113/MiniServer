@@ -1,0 +1,24 @@
+﻿using UnityEngine;
+using System.Collections;
+using Fsm;
+
+namespace Fsm.JFSM
+{
+	public interface JIFSMController<T> where T : struct {
+		
+	}
+	
+	public class JFSMController<T> : JIFSMController<T> where T : struct {
+		protected JFSMMachine<T> machine;
+	}
+	
+	public class JFSMMonoController<T> : MonoBehaviour, JIFSMController<T> where T : struct {
+		protected JFSMMachine<T> machine;
+		
+		public virtual void Update () {
+			if (machine != null) {
+				machine.UpdateState(Time.deltaTime);
+			}
+		}
+	}
+}
